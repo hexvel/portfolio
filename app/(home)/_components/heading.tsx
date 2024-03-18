@@ -15,19 +15,19 @@ const Heading = () => {
 			<div className="text-center">
 				<p
 					className={cn(
-						"px-4 text-xl sm:text-3xl md:text-4xl",
+						"px-4 text-2xl sm:text-4xl md:text-5xl",
 						kronaOne.className
 					)}
 				>
 					Designer, Full-stack Developer from Moscow
 				</p>
-				<p className="text-lg font-bold mt-4">
+				<p className="text-2xl font-bold mt-4">
 					I create and program aesthetically pleasing and uncomplicated items,
 					and I truly enjoy what I do.
 				</p>
 			</div>
 			<Image src="/avatar.png" width={200} height={200} alt="avatar" />
-			<Image src="/devices.png" width={620} height={200} alt="devices" />
+			<Image src="/devices.png" width={620} height={100} alt="devices" />
 		</div>
 	);
 };
