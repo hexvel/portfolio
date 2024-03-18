@@ -15,13 +15,13 @@ const Heading = () => {
 			<div className="text-center">
 				<p
 					className={cn(
-						"px-4 text-2xl sm:text-4xl md:text-5xl",
+						"px-4 text-lg sm:text-4xl md:text-5xl",
 						kronaOne.className
 					)}
 				>
 					Designer, Full-stack Developer from Moscow
 				</p>
-				<p className="text-2xl font-bold mt-4">
+				<p className="text-xl font-bold mt-4">
 					I create and program aesthetically pleasing and uncomplicated items,
 					and I truly enjoy what I do.
 				</p>
