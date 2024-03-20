@@ -19,6 +19,7 @@ const Skills = () => {
 					<p className="text-sm">UX, UI, Web, Apps, Logos.</p>
 				</div>
 			</div>
+
 			<div className="w-full h-auto py-8 sm:w-1/3 border-2 rounded-xl flex flex-col items-center justify-around px-6 md:h-full sm:h-[350px] hover:shadow-2xl transition-all hover:-translate-y-1 duration-300 cursor-default">
 				<Image src="/programming.png" width={64} height={64} alt="design" />
 				<div>
