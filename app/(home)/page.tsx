@@ -4,13 +4,13 @@ import RecentWork from "./_components/recent-work";
 import Skills from "./_components/skills";
 
 export default function Home() {
-	// TODO: add another pages
-	return (
-		<div className="h-screen w-full">
-			<Heading />
-			<About />
-			<Skills />
-			<RecentWork />
-		</div>
-	);
+  // TODO: add another pages
+  return (
+    <div className="h-screen w-full">
+      <Heading />
+      <About />
+      <Skills />
+      <RecentWork />
+    </div>
+  );
 }
